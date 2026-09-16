@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const html = await readFile('dist/index.html', 'utf8');
 assert.ok(html.includes('<main'), 'Essential content must be prerendered');
-assert.equal((html.match(/id="proyecto-/g) || []).length, 8, 'All eight projects must be in HTML');
+assert.equal((html.match(/id="proyecto-/g) || []).length, 9, 'All nine projects must be in HTML');
 assert.equal((html.match(/<h1\b/g) || []).length, 1, 'One top-level heading');
 assert.ok(html.includes('rel="canonical"') && html.includes('application/ld+json'));
 assert.ok(!html.includes('<!--app-html-->') && !html.includes('<!--site-metadata-->'));
@@ -16,4 +16,4 @@ for (const match of html.matchAll(/<a\b[^>]*target="_blank"[^>]*>/g)) assert.mat
 const css = await readFile('src/styles/responsive.css', 'utf8');
 assert.match(css, /prefers-reduced-motion:reduce/);
 assert.match(css, /transform:none!important/);
-console.log('Production checks passed: prerendered content, 8 projects, local assets, safe external links, SEO files and reduced-motion fallback.');
+console.log('Production checks passed: prerendered content, 9 projects, local assets, safe external links, SEO files and reduced-motion fallback.');

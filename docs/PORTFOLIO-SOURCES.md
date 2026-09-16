@@ -12,6 +12,7 @@ Revisión en navegador: 16 de septiembre de 2026. Los textos describen únicamen
 | Real InterContinental San Salvador — Ofertas | https://mauriciostanley.github.io/real-intercontinental-san-salvador/ofertas.html | Ofertas, paquetes, alojamiento y enlaces de reserva. | Demo navegable; sin afirmaciones de colaboración oficial o tarifas verificadas. |
 | Movilidad 360 SV | https://movilidad360sv.com/ | Viajes, encomiendas, turismo, origen/destino, cotización y acceso a WhatsApp. | Sitio navegable; no se copian estadísticas ni se solicita ubicación. |
 | Mapache Cinema: La Última Noche | https://edwinmarmol503-a11y.github.io/Mapache-cinema/ | Menú de juego, niveles, controles de teclado y escenario pixel art. | Demo interactiva de videojuego web. |
+| Fashion Storefront — Tu Marca | https://mauriciostanley.github.io/fashion-storefront/ | Catálogo de moda, filtros, favoritos, bolsa y selección de color, tela, corte y talla. | Demo interactiva; el pie la identifica como concepto de tienda. |
 
 ## Recursos de marca
 

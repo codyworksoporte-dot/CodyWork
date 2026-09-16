@@ -2,6 +2,15 @@
 
 Fecha: 16 de septiembre de 2026. Entorno: Windows, Node 26.5.1, navegador Chromium integrado. Repositorio de entrega: `codyworksoporte-dot/CodyWork`, rama `main`.
 
+## Ampliación del portafolio: Fashion Storefront
+
+Se añadió la novena demo con su enlace original, descripción y captura de portada optimizada a WebP (52 kB). El contador del archivo se calcula a partir de los proyectos disponibles.
+
+- `npm test`: las tres pruebas existentes pasan.
+- `npm run build`: comprobación de TypeScript, compilación, prerenderizado y verificación de los nueve proyectos y sus recursos correctos.
+- Navegador: la tarjeta y su imagen se muestran en escritorio y móvil (375 × 812), sin desbordamiento horizontal ni errores o advertencias de consola durante la revisión de escritorio.
+- Las comprobaciones que siguen corresponden a la entrega inicial de ocho demos.
+
 ## Compilación y pruebas
 
 | Comprobación | Resultado |
