@@ -29,7 +29,15 @@ html {
   scroll-padding-top:36px
 }
 body {
-  margin:0
+  margin:0;
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 84% 12%,#741db52b 0,transparent 23%),
+    radial-gradient(circle at 14% 36%,#00b9df1f 0,transparent 24%),
+    radial-gradient(circle at 80% 66%,#a026c022 0,transparent 22%),
+    radial-gradient(circle at 18% 88%,#00c9e827 0,transparent 24%),
+    linear-gradient(180deg,#05060b 0%,#13091f 19%,#071a24 35%,#05060b 50%,#16091f 68%,#06222a 84%,#05060b 100%);
+  background-color:var(--bg)
 }
 button,input,textarea,select {
   font:inherit
