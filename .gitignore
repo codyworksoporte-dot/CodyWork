@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.prerender/
+_reference/
+.env
+.env.local
+*.log
+docs/verification/*.png

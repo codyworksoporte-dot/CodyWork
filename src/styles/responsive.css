@@ -1,0 +1,1093 @@
+@media(min-width:1600px) {
+  main {
+    margin-inline:auto;
+    padding-left:190px;
+    padding-right:50px
+  }
+  .masthead {
+    max-width:1500px;
+    margin-inline:auto
+  }
+  .system-nav {
+    left:max(40px,calc((100vw - 1500px)/2))
+  }
+  .footer {
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto
+  }
+}
+@media(max-width:1150px) {
+  main {
+    margin-left:146px;
+    padding:0 30px
+  }
+  .masthead {
+    margin:0 30px
+  }
+  .system-nav {
+    left:25px;
+    width:115px
+  }
+  .system-nav a {
+    font-size:11px;
+    gap:8px;
+    padding:0 6px
+  }
+  .nav-caption {
+    margin-left:7px
+  }
+  .activation h1 {
+    font-size:clamp(58px,7vw,80px);
+    letter-spacing:-4px
+  }
+  .intro-copy {
+    max-width:230px
+  }
+  .intro-copy p {
+    font-size:14px
+  }
+  .signal-workspace {
+    grid-template-columns:33% 67%
+  }
+  .signal-node {
+    padding:8px;
+    font-size:10px;
+    gap:6px
+  }
+  .signal-kicker {
+    font-size:7px
+  }
+  .signal-readout h2 {
+    font-size:29px
+  }
+  .signal-readout p {
+    font-size:12px;
+    padding-right:8px
+  }
+  .map-output {
+    font-size:8px
+  }
+  .section-heading h2 {
+    font-size:43px
+  }
+  .section-heading>p {
+    max-width:245px;
+    font-size:12px
+  }
+  .capability-selector button {
+    padding:24px 14px;
+    gap:10px
+  }
+  .capability-selector strong {
+    font-size:13px
+  }
+  .capability-selector small {
+    font-size:10px
+  }
+  .capability-output {
+    padding:25px
+  }
+  .capability-output h3 {
+    font-size:27px
+  }
+  .process-detail {
+    grid-template-columns:80px 1fr;
+    gap:23px
+  }
+  .process-big-number {
+    font-size:53px
+  }
+  .process-deliverable {
+    grid-column:2;
+    gap:8px
+  }
+  .process-detail {
+    min-height:240px
+  }
+  .principles {
+    grid-template-columns:1fr 1fr 1fr;
+    gap:25px
+  }
+  .principles>p {
+    grid-column:1/-1;
+    display:flex;
+    gap:10px;
+    align-items:center
+  }
+  .principles>p strong {
+    margin:0;
+    max-width:none
+  }
+  .principles>p br {
+    display:none
+  }
+  .initializer-section {
+    gap:30px
+  }
+  .initializer-intro h2 {
+    font-size:43px;
+    letter-spacing:-2px
+  }
+  .contact-detail a {
+    font-size:12px
+  }
+  .project-initializer {
+    padding:0 20px 22px
+  }
+  .initializer-bar {
+    font-size:7px
+  }
+  .footer {
+    margin-left:176px;
+    margin-right:30px
+  }
+}
+@media(max-width:850px) {
+  main {
+    margin-left:0;
+    padding:0 32px
+  }
+  .masthead {
+    height:88px;
+    margin:0 32px
+  }
+  .brand img {
+    width:46px;
+    height:46px
+  }
+  .brand>span {
+    font-size:24px
+  }
+  .brand small {
+    font-size:7px
+  }
+  .origin {
+    display:none
+  }
+  .system-nav {
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    padding:0 32px;
+    flex-direction:row;
+    gap:24px;
+    background:#08090ff5;
+    border-bottom:1px solid #262734;
+    justify-content:space-between
+  }
+  .system-nav a {
+    border-left:0;
+    border-bottom:2px solid transparent;
+    font-size:11px;
+    padding:4px 0;
+    min-height:51px
+  }
+  .system-nav a[aria-current] {
+    border-bottom-color:var(--cyan);
+    background:transparent
+  }
+  .nav-caption,.nav-end,.system-nav a i {
+    display:none
+  }
+  .nav-number {
+    font-size:8px
+  }
+  .section-eyebrow {
+    padding-top:34px
+  }
+  .activation h1 {
+    font-size:72px
+  }
+  .intro-copy {
+    max-width:240px
+  }
+  .intro-copy p {
+    font-size:15px
+  }
+  .signal-map {
+    min-height:320px
+  }
+  .signal-workspace {
+    grid-template-columns:33% 67%;
+    margin-top:32px
+  }
+  .signal-readout p {
+    font-size:12px
+  }
+  .signal-node {
+    padding:8px;
+    font-size:10px
+  }
+  .signal-node>span {
+    display:none
+  }
+  .signal-node i {
+    margin-left:0
+  }
+  .brand-core {
+    width:43%;
+    left:28.5%
+  }
+  .map-output {
+    bottom:11%;
+    font-size:7px
+  }
+  .signal-legend {
+    font-size:7px
+  }
+  .section-heading h2 {
+    font-size:43px
+  }
+  .section-heading>p {
+    font-size:12px
+  }
+  .portfolio-section,.capabilities-section,.process-section {
+    padding-top:70px
+  }
+  .project-featured {
+    grid-template-columns:1.5fr 1fr;
+    gap:23px
+  }
+  .project p {
+    font-size:12px
+  }
+  .project-distinction {
+    font-size:10px
+  }
+  .project h3 {
+    font-size:28px
+  }
+  .project-meta {
+    font-size:8px
+  }
+  .project-nocturne .project-visual {
+    aspect-ratio:5/4
+  }
+  .project-le-cafe {
+    padding-top:45px
+  }
+  .project-tag {
+    font-size:8px;
+    left:9px;
+    top:9px
+  }
+  .project-note {
+    font-size:9px
+  }
+  .project-mapache {
+    grid-template-columns:1fr 1.5fr
+  }
+  .initializer-section {
+    padding-top:90px;
+    grid-template-columns:1fr 1.05fr;
+    gap:30px
+  }
+  .initializer-intro h2 {
+    font-size:42px
+  }
+  .initializer-intro>p {
+    font-size:13px
+  }
+  .contact-detail {
+    margin-top:42px
+  }
+  .contact-detail a {
+    font-size:11px
+  }
+  .contact-location {
+    font-size:10px
+  }
+  .project-initializer {
+    padding:0 18px 23px
+  }
+  .initializer-bar {
+    letter-spacing:0;
+    font-size:7px
+  }
+  .need-options label>span,.stage-options label>span {
+    font-size:9px;
+    padding:8px
+  }
+  .footer {
+    margin:0 32px
+  }
+  .capability-output h3 {
+    font-size:26px
+  }
+  .capability-selector button {
+    padding:26px 13px
+  }
+  .section-heading {
+    gap:25px
+  }
+  section {
+    scroll-margin-top:80px
+  }
+  .project {
+    scroll-margin-top:80px
+  }
+  html {
+    scroll-padding-top:20px
+  }
+}
+@media(max-width:600px) {
+  main {
+    padding:0 22px
+  }
+  .masthead {
+    height:83px;
+    margin:0 22px;
+    gap:12px
+  }
+  .brand img {
+    width:43px;
+    height:43px
+  }
+  .brand>span {
+    font-size:24px
+  }
+  .brand small {
+    font-size:6px;
+    letter-spacing:1.25px
+  }
+  .header-contact {
+    font-size:10px;
+    gap:8px;
+    max-width:100px;
+    line-height:1.5
+  }
+  .header-contact svg {
+    width:16px;
+    height:16px
+  }
+  .system-nav {
+    padding:0 22px;
+    gap:0;
+    justify-content:space-between
+  }
+  .system-nav a {
+    font-size:10px;
+    gap:0;
+    min-height:48px
+  }
+  .system-nav .nav-number {
+    display:none
+  }
+  .system-nav a:first-of-type {
+    display:none
+  }
+  .section-eyebrow {
+    padding-top:30px;
+    font-size:8px;
+    letter-spacing:.8px
+  }
+  .edition {
+    display:none
+  }
+  .activation-title {
+    display:block;
+    margin-top:23px
+  }
+  .activation h1 {
+    font-size:clamp(51px,15vw,82px);
+    line-height:1.01;
+    letter-spacing:-3.5px
+  }
+  .intro-copy {
+    max-width:290px;
+    display:grid;
+    grid-template-columns:19px 1fr;
+    column-gap:11px;
+    margin-top:22px
+  }
+  .intro-copy p {
+    font-size:13px;
+    line-height:1.65
+  }
+  .mini-cross {
+    font-size:20px;
+    margin:0
+  }
+  .intro-copy .micro-label {
+    grid-column:2;
+    font-size:8px;
+    margin-top:12px
+  }
+  .signal-workspace {
+    display:flex;
+    flex-direction:column;
+    margin-top:28px;
+    min-height:0
+  }
+  .signal-map {
+    order:1;
+    min-height:275px
+  }
+  .signal-readout {
+    order:2;
+    padding:18px 0 20px;
+    width:100%;
+    border-top:1px solid #2a2a394f
+  }
+  .signal-readout>.micro-label {
+    display:none
+  }
+  .readout-content {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:0;
+    padding:0
+  }
+  .signal-kicker {
+    font-size:8px;
+    letter-spacing:.8px
+  }
+  .signal-readout h2 {
+    font-size:28px;
+    margin-top:6px
+  }
+  .signal-readout p {
+    max-width:100%;
+    min-height:0;
+    margin-top:7px;
+    font-size:12px;
+    padding-right:0
+  }
+  .signal-readout .text-link {
+    margin-top:8px;
+    font-size:11px
+  }
+  .core-geometry {
+    inset:6px -5px 2px
+  }
+  .brand-core {
+    width:46%;
+    height:76%;
+    left:27%;
+    top:11%
+  }
+  .signal-node {
+    padding:8px 10px;
+    font-size:10px;
+    min-height:44px;
+    gap:8px
+  }
+  .signal-node>span {
+    display:inline;
+    font-size:8px
+  }
+  .node-0,.node-1 {
+    top:15%
+  }
+  .node-2,.node-3 {
+    bottom:16%
+  }
+  .node-0,.node-2 {
+    left:0
+  }
+  .node-1,.node-3 {
+    right:0
+  }
+  .map-coordinate {
+    top:12px;
+    font-size:7px
+  }
+  .map-output {
+    bottom:7%;
+    font-size:7px
+  }
+  .signal-legend {
+    order:3;
+    min-height:39px;
+    font-size:6px;
+    letter-spacing:.5px;
+    gap:8px
+  }
+  .signal-legend>span:last-child {
+    gap:5px;
+    white-space:nowrap
+  }
+  .legend-line {
+    width:25px
+  }
+  .touch-hint {
+    display:inline
+  }
+  .desktop-hint {
+    display:none
+  }
+  .activation-bottom {
+    padding:21px 0 12px;
+    align-items:center
+  }
+  .activation-bottom>span {
+    font-size:6px
+  }
+  .activation-bottom>a {
+    font-size:7px;
+    letter-spacing:.8px;
+    gap:9px
+  }
+  .activation-bottom .coordinates {
+    display:none
+  }
+  .circle-arrow {
+    width:30px;
+    height:30px
+  }
+  .portfolio-section,.capabilities-section,.process-section {
+    padding-top:64px
+  }
+  .section-heading {
+    display:block;
+    margin-bottom:28px
+  }
+  .section-heading h2 {
+    font-size:36px;
+    letter-spacing:-1.8px;
+    line-height:1.13
+  }
+  .section-index {
+    font-size:8px;
+    letter-spacing:1.1px;
+    margin-bottom:18px
+  }
+  .section-heading>p {
+    max-width:320px;
+    font-size:12px;
+    margin-top:21px;
+    line-height:1.75
+  }
+  .archive-toolbar {
+    font-size:7px;
+    letter-spacing:.6px;
+    padding:15px 0
+  }
+  .archive-toolbar>span:last-child {
+    display:none
+  }
+  .portfolio-grid {
+    display:flex;
+    flex-direction:column;
+    gap:32px
+  }
+  .project-featured {
+    display:block
+  }
+  .project-visual,.project-featured .project-visual,.project-nocturne .project-visual,.project-movilidad .project-visual {
+    aspect-ratio:16/10
+  }
+  .project-featured .project-info,.project-info {
+    padding:16px 0 0
+  }
+  .project h3 {
+    font-size:28px
+  }
+  .project-meta {
+    font-size:8px;
+    margin-bottom:3px
+  }
+  .project p {
+    font-size:12px;
+    line-height:1.8;
+    margin-top:7px
+  }
+  .project-distinction {
+    font-size:10px;
+    margin-top:12px
+  }
+  .preview-source {
+    font-size:10px;
+    margin-top:2px
+  }
+  .project-note {
+    font-size:9px;
+    margin-top:10px
+  }
+  .project-le-cafe,.project-estilos,.project-mapache {
+    padding-top:0;
+    margin-top:0;
+    border-top:0
+  }
+  .archive-note {
+    font-size:9px;
+    line-height:1.9;
+    margin-top:22px
+  }
+  .project-visual .project-tag {
+    font-size:8px;
+    top:12px;
+    left:12px
+  }
+  .capability-system {
+    display:block
+  }
+  .capability-selector {
+    border-right:0;
+    border-bottom:1px solid var(--line);
+    padding:0
+  }
+  .capability-selector button {
+    min-height:69px;
+    padding:14px 17px;
+    gap:15px
+  }
+  .capability-selector strong {
+    font-size:13px
+  }
+  .capability-selector small {
+    font-size:10px;
+    margin-top:4px
+  }
+  .capability-number {
+    font-size:9px
+  }
+  .capability-output {
+    padding:22px 19px 24px
+  }
+  .capability-output-top {
+    font-size:7px
+  }
+  .capability-output h3 {
+    font-size:27px;
+    max-width:290px;
+    margin:24px 0 13px
+  }
+  .capability-output>p {
+    font-size:12px
+  }
+  .parts-flow {
+    margin:26px 0
+  }
+  .parts-flow>span {
+    font-size:9px;
+    line-height:1.6
+  }
+  .parts-flow small {
+    font-size:7px
+  }
+  .capability-output dl {
+    gap:18px;
+    grid-template-columns:1fr
+  }
+  .capability-output dt {
+    font-size:8px;
+    margin-bottom:5px
+  }
+  .capability-output dd {
+    font-size:12px
+  }
+  .related-projects .micro-label {
+    font-size:7px
+  }
+  .related-projects a {
+    font-size:11px
+  }
+  .process-track {
+    margin-top:32px;
+    flex-direction:column;
+    border-left:1px solid #45405e;
+    margin-left:6px;
+    gap:8px
+  }
+  .process-track button {
+    display:flex;
+    align-items:center;
+    min-height:46px;
+    gap:20px;
+    padding:0 13px 0 0;
+    margin-left:-5.5px
+  }
+  .process-point {
+    height:auto;
+    display:block;
+    flex-shrink:0
+  }
+  .process-point i {
+    margin-right:0
+  }
+  .process-point::after {
+    display:none
+  }
+  .process-step-label {
+    padding:10px 0;
+    font-size:13px
+  }
+  .process-track button[aria-pressed=true] .process-step-label::after {
+    content:' ←';
+    color:var(--cyan);
+    padding-left:14px
+  }
+  .process-detail {
+    grid-template-columns:60px 1fr;
+    gap:18px;
+    padding:25px 0 30px;
+    min-height:0;
+    align-items:start
+  }
+  .process-big-number {
+    font-size:46px;
+    letter-spacing:-3px
+  }
+  .process-big-number small {
+    font-size:8px;
+    display:block;
+    letter-spacing:0;
+    margin-left:3px
+  }
+  .process-detail h3 {
+    font-size:20px
+  }
+  .process-detail p {
+    font-size:12px
+  }
+  .process-deliverable .micro-label {
+    font-size:7px
+  }
+  .process-deliverable strong {
+    font-size:11px
+  }
+  .principles {
+    grid-template-columns:1fr;
+    gap:24px;
+    margin-top:27px
+  }
+  .principles>p {
+    display:block;
+    font-size:14px;
+    max-width:270px
+  }
+  .principles>p strong {
+    margin-top:4px
+  }
+  .principles>div {
+    padding-left:28px;
+    position:relative
+  }
+  .principles>div>span {
+    position:absolute;
+    left:0;
+    top:2px
+  }
+  .principles h3 {
+    font-size:13px;
+    margin:0 0 7px
+  }
+  .principles>div p {
+    font-size:12px;
+    max-width:300px
+  }
+  .initializer-section {
+    display:block;
+    padding:73px 0 48px
+  }
+  .initializer-intro {
+    padding:0
+  }
+  .initializer-intro h2 {
+    font-size:44px;
+    line-height:1.13;
+    letter-spacing:-2.5px
+  }
+  .initializer-intro>p {
+    font-size:13px;
+    margin-top:20px
+  }
+  .contact-detail {
+    margin-top:29px;
+    gap:2px
+  }
+  .contact-detail>.micro-label {
+    font-size:8px;
+    margin-bottom:8px
+  }
+  .contact-detail a {
+    font-size:12px
+  }
+  .contact-location {
+    font-size:10px;
+    margin-top:14px
+  }
+  .project-initializer {
+    margin-top:34px;
+    padding:0 18px 23px
+  }
+  .initializer-bar {
+    font-size:7px;
+    padding:18px 0;
+    letter-spacing:.3px
+  }
+  .project-initializer legend,.field>label {
+    font-size:12px
+  }
+  .need-options label>span,.stage-options label>span {
+    font-size:10px;
+    padding:9px 10px
+  }
+  .field textarea,.field select {
+    font-size:16px
+  }
+  .field>span {
+    font-size:9px
+  }
+  .primary-button {
+    font-size:12px;
+    min-height:48px
+  }
+  .footer {
+    margin:0 22px;
+    padding:24px 0;
+    gap:8px 20px
+  }
+  .footer>p {
+    font-size:10px;
+    margin:0
+  }
+  .footer>a:not(.brand) {
+    font-size:10px;
+    margin-left:0
+  }
+  .footer>span {
+    font-size:7px;
+    margin-top:8px
+  }
+  .footer .brand>span {
+    font-size:20px
+  }
+  .footer .brand img {
+    width:35px;
+    height:35px
+  }
+  .footer>a.brand {
+    margin-right:auto
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  html {
+    scroll-behavior:auto
+  }
+  *,*::before,*::after {
+    transition:none!important;
+    animation:none!important
+  }
+  .core-geometry {
+    transform:none!important
+  }
+}
+@media(max-width:600px) {
+  .system-nav a:first-of-type {
+    display:flex
+  }
+  .system-nav a {
+    min-width:44px
+  }
+}
+.project-visual img {
+  object-fit:contain;
+  object-position:center
+}
+/* Keep the original black-backed mark intact while integrating its background. */
+.core-geometry {
+  mix-blend-mode:screen
+}
+.brand-core {
+  width:34%;
+  height:65%;
+  left:33%;
+  top:12%
+}
+.signal-readout p,.project p,.capability-output>p,.capability-output dd,.process-detail p {
+  font-size:14px
+}
+.project-distinction,.principles>div p,.related-projects a {
+  font-size:12px
+}
+.section-heading>p {
+  font-size:14px
+}
+.project-meta,.preview-source,.project-tag,.project-note,.archive-note {
+  font-size:11px
+}
+.signal-kicker,.signal-readout>.micro-label,.coordinate-top,.map-output,.signal-legend,.section-index,.micro-label {
+  font-size:10px
+}
+.signal-node {
+  font-size:12px
+}
+.signal-readout .text-link {
+  font-size:12px
+}
+.system-nav a {
+  font-size:12px
+}
+.project-initializer legend,.field>label,.need-options label>span,.stage-options label>span {
+  font-size:12px
+}
+.form-privacy,.field>span,.initializer-bar,.capability-output-top,.related-projects>.micro-label {
+  font-size:10px
+}
+.capability-output dt,.parts-flow small {
+  font-size:10px
+}
+.parts-flow>span {
+  font-size:12px
+}
+.project-initializer input {
+  scroll-margin-top:100px
+}
+.signal-legend,.map-coordinate,.signal-readout>.micro-label,.edition {
+  color:#a3a7b8
+}
+@media(max-width:1150px) {
+  .signal-workspace {
+    grid-template-columns:33% 67%
+  }
+  .signal-node {
+    font-size:11px
+  }
+  .signal-readout p {
+    font-size:13px
+  }
+  .signal-legend {
+    font-size:8px
+  }
+  .map-output {
+    font-size:8px
+  }
+  .parts-flow>span {
+    font-size:10px
+  }
+  .initializer-bar {
+    font-size:8px
+  }
+  .system-nav a {
+    font-size:11px
+  }
+}
+@media(max-width:600px) {
+  .brand-core {
+    width:40%;
+    height:69%;
+    left:30%;
+    top:11%
+  }
+  .signal-node {
+    font-size:10px;
+    gap:6px
+  }
+  .signal-kicker {
+    font-size:9px
+  }
+  .signal-readout p {
+    font-size:14px
+  }
+  .signal-legend {
+    font-size:7px
+  }
+  .signal-legend>span:first-child {
+    max-width:245px;
+    line-height:1.5
+  }
+  .map-output {
+    font-size:8px;
+    bottom:7%
+  }
+  .signal-node>span {
+    display:none
+  }
+  .coordinate-top {
+    font-size:8px
+  }
+  .signal-map {
+    min-height:280px
+  }
+  .signal-readout h2 {
+    font-size:30px
+  }
+  .section-heading>p {
+    font-size:14px
+  }
+  .project p,.capability-output>p,.capability-output dd,.process-detail p {
+    font-size:14px
+  }
+  .project-meta {
+    font-size:10px
+  }
+  .project h3 {
+    font-size:28px
+  }
+  .project-note,.archive-note,.preview-source {
+    font-size:11px
+  }
+  .need-options label>span,.stage-options label>span {
+    font-size:11px
+  }
+  .form-privacy {
+    font-size:10px
+  }
+  .initializer-bar {
+    font-size:8px
+  }
+  .system-nav a {
+    font-size:11px
+  }
+  .contact-detail a {
+    font-size:14px
+  }
+  .initializer-intro>p {
+    font-size:15px
+  }
+  .intro-copy p {
+    font-size:14px
+  }
+  .principles>div p {
+    font-size:14px
+  }
+  .process-step-label,.capability-selector strong {
+    font-size:14px
+  }
+  .capability-selector small {
+    font-size:12px
+  }
+  .field textarea,.field select {
+    font-size:16px
+  }
+}
+@media print {
+  .system-nav,.masthead,.signal-map,.project-initializer,.skip-link {
+    display:none
+  }
+  body {
+    background:#fff;
+    color:#111
+  }
+  main {
+    margin:0;
+    padding:0
+  }
+  section {
+    break-inside:avoid
+  }
+  .project-visual {
+    max-height:220px
+  }
+  .portfolio-grid {
+    display:block
+  }
+  .project {
+    display:block;
+    margin:25px 0
+  }
+  .footer {
+    margin:0
+  }
+  .section-heading h2>span,.initializer-intro h2>span,.activation h1>span {
+    color:#222;
+    background:none
+  }
+  .project p,p,.section-heading>p {
+    color:#333
+  }
+}

@@ -1,0 +1,229 @@
+.portfolio-section,.capabilities-section,.process-section {
+  padding-top:90px
+}
+.section-heading {
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:35px;
+  margin-bottom:44px
+}
+.section-index {
+  font-size:10px;
+  color:var(--cyan);
+  display:block;
+  margin-bottom:24px;
+  letter-spacing:1.6px
+}
+.section-heading h2 {
+  font-size:clamp(36px,4vw,60px);
+  line-height:1.08;
+  letter-spacing:-2.5px;
+  font-weight:500
+}
+.section-heading h2>span {
+  color:#8c8eaa
+}
+.section-heading>p {
+  font-size:13px;
+  color:#a5adbf;
+  max-width:320px;
+  padding-bottom:3px
+}
+.archive-toolbar {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 0;
+  border-top:1px solid var(--line);
+  font-size:8px;
+  letter-spacing:1px;
+  color:#a0a7bb
+}
+.archive-toolbar>span {
+  display:flex;
+  align-items:center;
+  gap:9px
+}
+.archive-toolbar svg {
+  width:14px;
+  height:14px
+}
+.portfolio-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:45px 26px
+}
+.project {
+  min-width:0;
+  scroll-margin-top:30px
+}
+.project-visual {
+  display:block;
+  position:relative;
+  aspect-ratio:16/10;
+  overflow:hidden;
+  background:#11131b;
+  border:1px solid #272a37
+}
+.project-visual img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top
+}
+.project-visual::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  box-shadow:inset 0 0 0 0 var(--cyan);
+  transition:box-shadow var(--duration)
+}
+.project-visual:hover::after {
+  box-shadow:inset 0 0 0 2px var(--cyan)
+}
+.project-tag {
+  position:absolute;
+  left:13px;
+  top:13px;
+  background:#080a10e8;
+  border:1px solid #656879;
+  color:#e3e7f5;
+  padding:6px 9px;
+  border-radius:2px;
+  font-size:9px;
+  letter-spacing:.3px
+}
+.project-launch {
+  position:absolute;
+  right:14px;
+  bottom:14px;
+  display:grid;
+  place-items:center;
+  width:39px;
+  height:39px;
+  border-radius:50%;
+  background:#0a0d14ed;
+  border:1px solid #858595;
+  color:var(--text)
+}
+.project-visual:hover .project-launch {
+  background:var(--cyan);
+  color:var(--bg);
+  border-color:var(--cyan)
+}
+.project-featured {
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);
+  gap:28px;
+  align-items:center
+}
+.project-featured .project-visual {
+  aspect-ratio:16/10
+}
+.project-info {
+  padding-top:18px
+}
+.project-featured .project-info {
+  padding:5px 8px
+}
+.project-meta {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-family:Consolas,monospace;
+  font-size:9px;
+  letter-spacing:1px;
+  color:#b0b8ca;
+  margin-bottom:10px
+}
+.project-meta>span:last-child {
+  color:#8d90a9
+}
+.project h3 {
+  font-size:clamp(25px,2.6vw,36px);
+  font-weight:500;
+  letter-spacing:-1px;
+  line-height:1.2
+}
+.project h3 a {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:15px;
+  min-height:44px
+}
+.project h3 a:hover {
+  color:var(--cyan)
+}
+.project h3 svg {
+  width:18px;
+  height:18px;
+  color:#a5a5ba
+}
+.project p {
+  font-size:13px;
+  color:#aab1c4;
+  margin-top:12px;
+  line-height:1.7;
+  max-width:470px
+}
+.project-distinction {
+  display:block;
+  color:#d0d5e2;
+  margin-top:16px;
+  font-size:11px;
+  line-height:1.7
+}
+.project-note {
+  display:block;
+  font-size:10px;
+  color:#a9a6ba;
+  margin-top:15px;
+  line-height:1.6;
+  padding-left:10px;
+  border-left:1px solid #575568
+}
+.preview-source {
+  display:inline-flex;
+  align-items:center;
+  gap:15px;
+  min-height:44px;
+  font-size:10px;
+  color:#b7a6dd;
+  margin-top:7px
+}
+.preview-source:hover {
+  color:var(--cyan)
+}
+.project-mapache {
+  margin-top:15px;
+  border-top:1px solid var(--line);
+  padding-top:30px;
+  grid-template-columns:minmax(0,1fr) minmax(0,1.7fr)
+}
+.project-mapache .project-visual {
+  order:2
+}
+.project-mapache .project-info {
+  order:1
+}
+.project-nocturne .project-visual {
+  aspect-ratio:5/4
+}
+.project-le-cafe {
+  padding-top:65px
+}
+.project-estilos {
+  padding-top:38px
+}
+.project-movilidad .project-visual {
+  aspect-ratio:16/9
+}
+.archive-note {
+  font-size:10px;
+  color:#949aae;
+  margin-top:28px;
+  max-width:730px
+}

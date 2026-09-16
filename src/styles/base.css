@@ -1,0 +1,229 @@
+/* Palette follows the supplied CW artwork; light is reserved for state and direction. */
+:root {
+  font-family:"Segoe UI",Arial,sans-serif;
+  color:#f0f1f7;
+  background:#07080d;
+  font-synthesis:none;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  --bg:#07080d;
+  --surface:#0d0f16;
+  --raised:#131620;
+  --line:#242632;
+  --muted:#a3a7b8;
+  --text:#f0f1f7;
+  --cyan:#5be8ee;
+  --blue:#6389ff;
+  --violet:#b195ff;
+  --magenta:#e56edc;
+  --gradient:linear-gradient(100deg,#5be8ee 0%,#6389ff 42%,#b195ff 75%,#e56edc 100%);
+  --duration:200ms;
+  --ease:cubic-bezier(.22,.68,0,1.01);
+  color-scheme:dark
+}
+* {
+  box-sizing:border-box
+}
+html {
+  scroll-behavior:smooth;
+  scroll-padding-top:36px
+}
+body {
+  margin:0
+}
+button,input,textarea,select {
+  font:inherit
+}
+button,a,input,select,textarea {
+  -webkit-tap-highlight-color:transparent
+}
+button,a {
+  touch-action:manipulation
+}
+button {
+  cursor:pointer
+}
+a {
+  color:inherit;
+  text-decoration:none
+}
+p {
+  line-height:1.7
+}
+h1,h2,h3,p {
+  margin:0
+}
+button {
+  color:inherit
+}
+svg {
+  flex-shrink:0
+}
+::selection {
+  background:#5be8ee;
+  color:#07080d
+}
+:focus-visible {
+  outline:2px solid var(--cyan);
+  outline-offset:6px
+}
+button:disabled {
+  opacity:.5;
+  cursor:not-allowed
+}
+a,button,input,textarea,select {
+  transition:color var(--duration),background-color var(--duration),border-color var(--duration),transform var(--duration) var(--ease)
+}
+button:active,.primary-button:active {
+  transform:translateY(1px)
+}
+img {
+  display:block;
+  max-width:100%
+}
+main {
+  margin-left:194px;
+  max-width:1560px;
+  padding:0 58px 0 40px
+}
+main:focus {
+  outline:none
+}
+section {
+  scroll-margin-top:30px
+}
+.skip-link {
+  position:fixed;
+  top:10px;
+  left:10px;
+  padding:15px 22px;
+  background:var(--cyan);
+  color:var(--bg);
+  z-index:100;
+  transform:translateY(-200%);
+  font-weight:600
+}
+.skip-link:focus {
+  transform:translateY(0)
+}
+.masthead {
+  height:105px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:0 58px 0 40px;
+  border-bottom:1px solid var(--line);
+  gap:24px
+}
+.brand {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  flex-shrink:0
+}
+.brand img {
+  width:52px;
+  height:52px;
+  object-fit:contain;
+  mix-blend-mode:screen
+}
+.brand>span {
+  font-size:27px;
+  letter-spacing:-1.2px;
+  font-weight:750
+}
+.brand-work {
+  color:#b092f6
+}
+.brand small {
+  display:block;
+  font-size:8px;
+  letter-spacing:1.8px;
+  margin-top:5px;
+  font-weight:500
+}
+.origin {
+  font-size:11px;
+  letter-spacing:1.6px;
+  color:var(--muted);
+  display:flex;
+  align-items:center;
+  gap:13px
+}
+.origin i {
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--cyan)
+}
+.origin>span {
+  color:#969aae
+}
+.header-contact {
+  font-size:13px;
+  display:flex;
+  align-items:center;
+  gap:22px;
+  min-height:44px
+}
+.header-contact:hover {
+  color:var(--cyan)
+}
+.system-nav {
+  position:fixed;
+  z-index:20;
+  top:183px;
+  left:40px;
+  width:151px;
+  display:flex;
+  flex-direction:column;
+  gap:8px
+}
+.nav-caption {
+  font-size:10px;
+  letter-spacing:2px;
+  color:#8e94a7;
+  margin:0 0 20px 11px
+}
+.system-nav a {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  font-size:12px;
+  min-height:44px;
+  padding:0 9px;
+  color:#999daf;
+  border-left:1px solid #30313d
+}
+.nav-number {
+  font-size:10px;
+  color:#757d93
+}
+.system-nav a i {
+  margin-left:auto
+}
+.system-nav a[aria-current] {
+  color:var(--text);
+  border-color:var(--cyan);
+  background:linear-gradient(90deg,#10242780,transparent)
+}
+.system-nav a[aria-current] i {
+  width:4px;
+  height:4px;
+  background:var(--cyan);
+  border-radius:50%
+}
+.system-nav a[aria-current] .nav-number {
+  color:var(--cyan)
+}
+.system-nav a:hover {
+  color:var(--cyan);
+  background:#12151c
+}
+.nav-end {
+  font-size:9px;
+  color:#777e91;
+  letter-spacing:1.6px;
+  writing-mode:vertical-rl;
+  margin:48px 0 0 14px
+}
