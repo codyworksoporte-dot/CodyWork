@@ -48,4 +48,4 @@ No se ejecutó Lighthouse ni una prueba con lector de pantalla real. Los objetiv
 
 ## Publicación
 
-La entrega solicitada es el código en GitHub. Se incluye un flujo manual para compilar y publicar en GitHub Pages, sin desplegar automáticamente en cada push. El dominio de producción puede configurarse con `SITE_URL`.
+La entrega solicitada es el código en GitHub. Se incluye un flujo que compila y publica en GitHub Pages con cada cambio en `main`, además de permitir ejecución manual. El dominio de producción puede configurarse con `SITE_URL`.

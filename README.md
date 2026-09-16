@@ -23,7 +23,7 @@ npm run preview
 
 El canonical, sitemap, datos Organization y tarjetas sociales toman `SITE_URL` durante la compilación. Por defecto: `https://codyworksoporte-dot.github.io/CodyWork/`. Configurar esta variable si se usa otro dominio. Vite utiliza rutas relativas para funcionar en GitHub Pages o cualquier alojamiento estático.
 
-La fuente está en `main`. El flujo manual `Publicar web` compila y sube el resultado a GitHub Pages una vez habilitado Pages con origen GitHub Actions en el repositorio. Guardar cambios en GitHub y publicar el sitio son acciones diferentes.
+La fuente está en `main`. Cada cambio guardado en esa rama ejecuta `Publicar web`: comprueba tipos y pruebas, compila la aplicación y publica `dist` en GitHub Pages. También se puede iniciar manualmente desde Actions.
 
 ## Archivos principales
 
