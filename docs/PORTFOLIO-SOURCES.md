@@ -13,6 +13,8 @@ Revisión en navegador: 16 de septiembre de 2026. Los textos describen únicamen
 | Movilidad 360 SV | https://movilidad360sv.com/ | Viajes, encomiendas, turismo, origen/destino, cotización y acceso a WhatsApp. | Sitio navegable; no se copian estadísticas ni se solicita ubicación. |
 | Mapache Cinema: La Última Noche | https://edwinmarmol503-a11y.github.io/Mapache-cinema/ | Menú de juego, niveles, controles de teclado y escenario pixel art. | Demo interactiva de videojuego web. |
 | Fashion Storefront — Tu Marca | https://mauriciostanley.github.io/fashion-storefront/ | Catálogo de moda, filtros, favoritos, bolsa y selección de color, tela, corte y talla. | Demo interactiva; el pie la identifica como concepto de tienda. |
+| Pulse Road | https://mauriciostanley.github.io/pulse-road/ | Juego de ritmo con cuatro niveles, tutorial, controles táctiles y de teclado, instalación y modo ultraligero. | Demo interactiva de videojuego web. |
+| INCO — Instituto Nacional de Comercio | https://mauriciostanley.github.io/inco-web/ | Oferta académica, orientación para matrícula, vida estudiantil y canales de contacto. | Sitio navegable; el pie indica que el contenido institucional sigue en verificación con la dirección del centro. |
 
 ## Recursos de marca
 
